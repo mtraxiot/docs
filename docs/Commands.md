@@ -48,6 +48,7 @@ Commands can be executed via web (HTTP) requests, for example:
 http://<ip>/cm?cmnd=Power%20TOGGLE
 http://<ip>/cm?cmnd=Power%20On
 http://<ip>/cm?cmnd=Power%20off
+http://<ip>/cm?cmnd=status%2010
 http://<ip>/cm?user=admin&password=joker&cmnd=Power%20Toggle
 ```
 !!! warning "Any spaces or special characters must be replaced with their [ASCII hex codes](https://www.rapidtables.com/code/text/ascii-table.html)."
